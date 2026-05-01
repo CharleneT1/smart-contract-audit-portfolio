@@ -1,24 +1,18 @@
 # Smart Contract Audit Portfolio
 
-Security researcher focused on DeFi protocol auditing.
+Learning smart contract security through hands-on practice and real audit analysis.
 
-## 🎯 Active Work
+## Contents
 
-**Code4rena Profile:** [Your profile link]  
-**Ethernaut Progress:** [Link to your other repo]
+[Audit Reports Studied](./audit-reports-studied/) contains write-ups of findings from professional audits, starting with OpenZeppelin reports and moving to Solodit findings.
 
-## 📁 This Repository
+[Code4rena Contests](./code4rena-contests/) will track submissions and findings from audit competitions once I start entering.
 
-### [Code4rena Contests](./code4rena-contests/)
-My findings and submissions from audit competitions
+## Current Progress
 
-### [Audit Reports Studied](./audit-reports-studied/)
-Analysis of professional audit reports - learning from the best
+Ethernaut: in progress (https://github.com/CharleneT1/ethernaut-writeups)
+Code4rena Profile: [link]
 
-## 🛠️ Tools & Skills
-- Solidity, Foundry, Hardhat
-- Slither, Aderyn, Mythril
-- DeFi protocol security patterns
+## Learning Plan
 
----
-*Updated weekly with new contests and learnings*
+See [GETTING_STARTED.md](./GETTING_STARTED.md) for the full breakdown.
