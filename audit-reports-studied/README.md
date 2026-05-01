@@ -1,25 +1,25 @@
 # Audit Reports Studied
 
-Learning by analyzing real security audits from top firms.
+Learning by analyzing real findings from professional audits.
 
-## Reports Analyzed
+## Findings Log
 
-| Date | Protocol | Audit Firm | Critical/High | My Analysis |
-|------|----------|------------|---------------|-------------|
-| Example | Compound | OpenZeppelin | 2C, 5H | [Link](./example-compound.md) |
+| Date | Protocol | Source | Severity | Vulnerability Type | My Analysis |
+|------|----------|--------|----------|--------------------|-------------|
 
-## Where I Find Reports
+## Where to Find Reports
 
-- [Code4rena Reports](https://code4rena.com/reports) - Competitive audits
-- [Solodit](https://solodit.xyz/) - Aggregated audit database
-- [Sherlock Audits](https://audits.sherlock.xyz/) - Protocol audits
-- Trail of Bits publications
-- OpenZeppelin audit reports
-- Consensys Diligence reports
+**Phase 2 — Start here:**
+- [OpenZeppelin Audits](https://www.openzeppelin.com/research#security-audits) — best for beginners, full context provided
+- Recommended first: [Compound III](https://www.openzeppelin.com/news/compound-iii-audit)
 
-## My Process
+**Phase 3 — Pattern practice:**
+- [Solodit](https://solodit.cyfrin.io/?i=HIGH%2CMEDIUM%2CLOW%2CGAS&maxf=&minf=&rf=alltime&sd=Desc&sf=Recency) — filter Critical + Code4rena
 
-1. Read the full audit report
-2. Pick 1-2 critical/high findings to deep-dive
-3. Write my own explanation of the vulnerability
-4. Document what I'd look for in similar code
+## Process
+
+1. Read the protocol summary for context
+2. Pick one Critical or High finding to deep-dive
+3. Copy `_TEMPLATE.md`, rename it `protocol-finding.md`
+4. Fill it out in your own words — no copy-pasting
+5. Commit and push

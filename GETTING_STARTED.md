@@ -1,66 +1,47 @@
-# Getting Started - This Weekend
+# Getting Started
 
-## Your First Task: Analyze 1 Audit Report
+## Phased Learning Path
 
-Pick ONE of these reports to analyze this Sunday:
+### Phase 1: Hands-On Exploitation (Weeks 1-2)
+**Ethernaut** — learn vulnerability patterns by exploiting them yourself, not just reading about them.
 
-### Option 1: Compound V3 (OpenZeppelin) ⭐ RECOMMENDED
-**Why:** Clear findings, well-explained, good starting point
-**Link:** https://blog.openzeppelin.com/compound-v3-core-audit
-**Time:** 2-3 hours
-**Findings:** Multiple High severity issues with clear explanations
-
-### Option 2: Recent Code4rena Contest
-**Why:** Current, competitive audit format (what you'll be doing)
-**Link:** Go to https://code4rena.com/reports - pick latest finished contest
-**Time:** 2-4 hours
-**Findings:** Community findings + judge comments
-
-### Option 3: Trail of Bits - Uniswap V3
-**Why:** Famous protocol, thorough audit methodology shown
-**Link:** https://github.com/Uniswap/v3-core/blob/main/audits/tob/audit.pdf
-**Time:** 3-4 hours
-**Findings:** Multiple critical issues in battle-tested code
-
-## Your Workflow
-
-### Step 1: Read (1 hour)
-- Download/open the PDF or report page
-- Skim the whole thing first
-- Note down all Critical/High findings
-
-### Step 2: Pick One Finding to Deep-Dive (30 min)
-- Choose the most interesting Critical or High
-- Read that section 2-3 times until you understand it
-- Look at the code if provided
-
-### Step 3: Write Your Analysis (1 hour)
-- Copy the _TEMPLATE.md file
-- Rename it: `protocol-name-firm.md`
-- Fill it out in YOUR OWN WORDS (don't copy-paste)
-- Focus on: What was the bug? How to exploit? What's the fix?
-
-### Step 4: Commit and Push (5 min)
-```bash
-git add .
-git commit -m "Add [Protocol] audit analysis"
-git push
-```
-
-## Success Criteria
-
-By Sunday evening you should have:
-- ✅ 1 audit report fully read
-- ✅ 1 markdown file in audit-reports-studied/
-- ✅ Pushed to your GitHub
-- ✅ Can explain the vulnerability to someone else
-
-## Next Week
-
-- Monday-Friday: Continue Ethernaut (your other repo)
-- Next weekend: Analyze another report + start your first Code4rena contest
+This builds the intuition that makes reading reports actually stick.
 
 ---
 
-**Start with Option 1 (Compound V3) if you're unsure.**
-It's the best beginner-friendly report.
+### Phase 2: Read Real Audit Reports (Weeks 3-4)
+**OpenZeppelin reports** are the best starting point for beginners — they explain the protocol first, then the finding, so you have context for why something is a bug.
+
+- Full list: https://www.openzeppelin.com/research#security-audits
+- Start here: https://www.openzeppelin.com/news/compound-iii-audit (Compound III)
+
+**Your workflow per report:**
+1. Read the protocol summary section
+2. Find the Critical/High findings
+3. Pick ONE to deep-dive
+4. Fill out the template in `audit-reports-studied/`
+
+---
+
+### Phase 3: Solodit Pattern Practice (Weeks 5-6)
+Once you have context from real reports, Solodit findings are faster for pattern recognition.
+
+- https://solodit.cyfrin.io/?i=HIGH%2CMEDIUM%2CLOW%2CGAS&maxf=&minf=&rf=alltime&sd=Desc&sf=Recency
+- Filter: Critical + Code4rena
+- Aim for 5-10 findings, one write-up per finding
+
+---
+
+### Phase 4: Code4rena Contests (Week 7+)
+You don't need to find a bug in your first contest. The goal is to read unfamiliar protocol code and try — that practice is the skill you're building.
+
+- https://code4rena.com/audits
+
+---
+
+## Commit After Each Analysis
+```bash
+git add .
+git commit -m "Add [Protocol] analysis - [vulnerability type]"
+git push
+```

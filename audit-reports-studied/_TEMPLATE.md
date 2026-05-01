@@ -1,47 +1,38 @@
-# [Protocol Name] - [Audit Firm] Analysis
+# [Protocol Name] - [Finding Title]
 
-**Report Link:** [URL]  
-**Date:** [Audit date]  
-**Studied:** [Today's date]
-
----
-
-## Quick Summary
-
-**Protocol:** [What does it do in 1 sentence]  
-**Findings:** [XC / XH / XM / XL]  
-**Most Interesting:** [Which finding you're analyzing]
+**Source:** [OpenZeppelin / Solodit / Code4rena]
+**Link:** [URL]
+**Severity:** [Critical / High]
+**Analyzed:** [Date]
 
 ---
 
-## Deep Dive: [Vulnerability Name]
+## What the Protocol Does
 
-**Severity:** [Critical/High]  
-**Contract:** `ContractName.sol`
-
-### What Went Wrong
-[Explain the bug in simple terms - what was the mistake?]
-
-### How to Exploit It
-[Step by step - how would an attacker use this?]
-
-### The Fix
-[What did they change to fix it?]
-
-### My Takeaway
-[What will YOU look for in future audits because of this?]
+[1-2 sentences — what does this protocol do? What is it trying to achieve?]
 
 ---
 
-## Other Notable Findings
+## The Bug
 
-- **[Finding 2]:** [One sentence summary]
-- **[Finding 3]:** [One sentence summary]
+[Explain what's wrong in 2-3 sentences in your own words. What assumption did the developer get wrong?]
 
 ---
 
-## What I Learned
+## How to Exploit It
 
-1. [Specific pattern to watch for]
-2. [Tool or technique to use]
-3. [Common mistake to avoid]
+1. [Step 1]
+2. [Step 2]
+3. [What the attacker gains]
+
+---
+
+## The Fix
+
+[What was changed to fix it? Why does the fix work?]
+
+---
+
+## What I'll Look For Now
+
+[One specific thing you'll check for when reading similar code in the future]
